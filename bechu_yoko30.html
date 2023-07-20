@@ -8,15 +8,17 @@
     <title>発注書別注</title>
     <style>
         * {
-            margin: 5px;
+            margin: 6px;
             padding: 0;
             box-sizing: border-box;
 
         }
-
+        body{
+            width: 1550px;
+        }
         table {
             text-align: left;
-            /*            width: 100%;*/
+                       /* width: 100%; */
         }
 
         th {
@@ -48,12 +50,15 @@
 
         td.lg,
         th.lg {
-            font-size: 10px;
+            font-size: 6px;
         }
 
         div.base {
-            padding: 10px 0 0 0;    
-            border: 2px solid rgb(204, 39, 39);
+            /* width: 1550px;1090px; */
+            /* height: 700px;770px; */
+            margin: 0 0 0 0;
+            padding: 0 0 0 0;    
+            border: 2px solid rgb(0, 0, 0);
             display: flex;
             flex-wrap: wrap;
         }
@@ -61,15 +66,53 @@
         div.koma {
             display: flex;
             margin: 0 0 10px 10px;
-            border: 2px solid rgb(30, 153, 147);
-            width: 200px;
-            height: 200px;
+            /* border: 2px solid rgb(30, 153, 147); */
+            width: 120px;
+            height: 120px;
         }
 
         img.item {
             width: auto;
-            height: 85%;
+            height: 80%;
         }
+
+        .no {
+            width: 20px;
+        }
+
+        .code {
+            width: 110px;
+        }
+
+        .hin {
+            width: 100px;
+        }
+
+        .jan {
+            width: 125px;
+        }
+
+        .color {
+            width: 240px;
+        }
+
+        .cs {
+            width: 60px;
+        }
+
+        .colm {
+            width: 70px;
+        }
+        @page {
+            size: A4 landscape;
+            /*            size: A4 ;*/
+            margin: 3mm 6mm;
+        }
+        @media print {  
+            .button{
+                display: none;
+            }
+        }    
     </style>
 </head>
 
@@ -131,7 +174,7 @@
             <tbody>
                 <tr>
                     <td width="175" class="hd">MRG特記事項</td>
-                    <td width="450" height="100">〇〇〇〇</td>
+                    <td width="450" height="60">〇〇〇〇</td>
                 </tr>
 
             </tbody>
@@ -142,27 +185,27 @@
         <table border="1" cellpadding="0" cellspacing="0">
             <tbody>
                 <tr>
-                    <th width="20">No</th>
-                    <th width="155">商品コード</th>
-                    <th width="155">元コード</th>
-                    <th width="175">品番</th>
-                    <th width="350">品名</th>
-                    <th width="175">JANコード</th>
-                    <th width="700">色</th>
-                    <th width="175">C/S</th>
-                    <th width="175">数量</th>
-                    <th width="175">単価 (円)</th>
-                    <th width="175">＄単価</th>
-                    <th width="175">為替</th>
-                    <th width="175">経費率</th>
-                    <th class="lg" width="175">ロイヤリティ</th>
-                    <th width="175">上代</th>
-                    <th width="175">歩引き</th>
-                    <th width="175">物流費</th>
-                    <th width="175">資材費</th>
-                    <th width="175">加工賃</th>
-                    <th width="175">納品単価</th>
-                    <th width="175">最終引取</th>
+                    <th class="no">No</th>
+                    <th class="code">商品コード</th>
+                    <th class="code">元コード</th>
+                    <th class="code">品番</th>
+                    <th class="hin">品名</th>
+                    <th class="jan">JANコード</th>
+                    <th class="color">色</th>
+                    <th class="cs">C/S</th>
+                    <th class="colm">数量</th>
+                    <th class="colm">単価 (円)</th>
+                    <th class="colm">＄単価</th>
+                    <th class="colm">為替</th>
+                    <th class="colm">経費率</th>
+                    <th class="colm">ロイヤリティ</th>
+                    <th class="colm">上代</th>
+                    <th class="colm">歩引き</th>
+                    <th class="colm">物流費</th>
+                    <th class="colm">資材費</th>
+                    <th class="colm">加工賃</th>
+                    <th class="colm">納品単価</th>
+                    <th class="colm">最終引取</th>
                 </tr>
                 <tr>
                     <td>1</td>
@@ -171,7 +214,7 @@
                     <td>DE063B</td>
                     <td class="lg">ｱﾘｽ ﾌﾙｰﾘｰﾙ FT｢**｣</td>
                     <td>4992272588248</td>
-                    <td class="lg">ホワイト/ブルー/シルバー/ネイビーブルー/エクル</td>
+                    <td class="lg">ホワイト/ブルー/シルバー/ネイビーブルー/エク</td>
                     <td>160</td>
                     <td class="num">3,000</td>
                     <td class="num">0.00</td>
@@ -194,7 +237,7 @@
                     <td>DE063B</td>
                     <td class="lg">ｱﾘｽ ﾌﾙｰﾘｰﾙ FT｢**｣</td>
                     <td>4992272588248</td>
-                    <td class="lg">ホワイト/ブルー/シルバー/ネイビーブルー/エクル</td>
+                    <td class="lg">ホワイト/ブルー/シルバー/ネイビーブルー/エク</td>
                     <td>160</td>
                     <td class="num">3,000</td>
                     <td class="num">0.00</td>
@@ -217,7 +260,7 @@
                     <td>DE063B</td>
                     <td class="lg">ｱﾘｽ ﾌﾙｰﾘｰﾙ FT｢**｣</td>
                     <td>4992272588248</td>
-                    <td class="lg">ホワイト/ブルー/シルバー/ネイビーブルー/エクル</td>
+                    <td class="lg">ホワイト/ブルー/シルバー/ネイビーブルー/エク</td>
                     <td>160</td>
                     <td class="num">3,000</td>
                     <td class="num">0.00</td>
@@ -240,7 +283,7 @@
                     <td>DE063B</td>
                     <td class="lg">ｱﾘｽ ﾌﾙｰﾘｰﾙ FT｢**｣</td>
                     <td>4992272588248</td>
-                    <td class="lg">ホワイト/ブルー/シルバー/ネイビーブルー/エクル</td>
+                    <td class="lg">ホワイト/ブルー/シルバー/ネイビーブルー/エク</td>
                     <td>160</td>
                     <td class="num">3,000</td>
                     <td class="num">0.00</td>
@@ -263,7 +306,7 @@
                     <td>DE063B</td>
                     <td class="lg">ｱﾘｽ ﾌﾙｰﾘｰﾙ FT｢**｣</td>
                     <td>4992272588248</td>
-                    <td class="lg">ホワイト/ブルー/シルバー/ネイビーブルー/エクル</td>
+                    <td class="lg">ホワイト/ブルー/シルバー/ネイビーブルー/エク</td>
                     <td>160</td>
                     <td class="num">3,000</td>
                     <td class="num">0.00</td>
@@ -286,7 +329,7 @@
                     <td>DE063B</td>
                     <td class="lg">ｱﾘｽ ﾌﾙｰﾘｰﾙ FT｢**｣</td>
                     <td>4992272588248</td>
-                    <td class="lg">ホワイト/ブルー/シルバー/ネイビーブルー/エクル</td>
+                    <td class="lg">ホワイト/ブルー/シルバー/ネイビーブルー/エク</td>
                     <td>160</td>
                     <td class="num">3,000</td>
                     <td class="num">0.00</td>
@@ -309,7 +352,7 @@
                     <td>DE063B</td>
                     <td class="lg">ｱﾘｽ ﾌﾙｰﾘｰﾙ FT｢**｣</td>
                     <td>4992272588248</td>
-                    <td class="lg">ホワイト/ブルー/シルバー/ネイビーブルー/エクル</td>
+                    <td class="lg">ホワイト/ブルー/シルバー/ネイビーブルー/エク</td>
                     <td>160</td>
                     <td class="num">3,000</td>
                     <td class="num">0.00</td>
@@ -332,7 +375,7 @@
                     <td>DE063B</td>
                     <td class="lg">ｱﾘｽ ﾌﾙｰﾘｰﾙ FT｢**｣</td>
                     <td>4992272588248</td>
-                    <td class="lg">ホワイト/ブルー/シルバー/ネイビーブルー/エクル</td>
+                    <td class="lg">ホワイト/ブルー/シルバー/ネイビーブルー/エク</td>
                     <td>160</td>
                     <td class="num">3,000</td>
                     <td class="num">0.00</td>
@@ -355,7 +398,7 @@
                     <td>DE063B</td>
                     <td class="lg">ｱﾘｽ ﾌﾙｰﾘｰﾙ FT｢**｣</td>
                     <td>4992272588248</td>
-                    <td class="lg">ホワイト/ブルー/シルバー/ネイビーブルー/エクル</td>
+                    <td class="lg">ホワイト/ブルー/シルバー/ネイビーブルー/エク</td>
                     <td>160</td>
                     <td class="num">3,000</td>
                     <td class="num">0.00</td>
@@ -378,7 +421,7 @@
                     <td>DE063B</td>
                     <td class="lg">ｱﾘｽ ﾌﾙｰﾘｰﾙ FT｢**｣</td>
                     <td>4992272588248</td>
-                    <td class="lg">ホワイト/ブルー/シルバー/ネイビーブルー/エクル</td>
+                    <td class="lg">ホワイト/ブルー/シルバー/ネイビーブルー/エク</td>
                     <td>160</td>
                     <td class="num">3,000</td>
                     <td class="num">0.00</td>
@@ -401,7 +444,7 @@
                     <td>DE063B</td>
                     <td class="lg">ｱﾘｽ ﾌﾙｰﾘｰﾙ FT｢**｣</td>
                     <td>4992272588248</td>
-                    <td class="lg">ホワイト/ブルー/シルバー/ネイビーブルー/エクル</td>
+                    <td class="lg">ホワイト/ブルー/シルバー/ネイビーブルー/エク</td>
                     <td>160</td>
                     <td class="num">3,000</td>
                     <td class="num">0.00</td>
@@ -424,7 +467,7 @@
                     <td>DE063B</td>
                     <td class="lg">ｱﾘｽ ﾌﾙｰﾘｰﾙ FT｢**｣</td>
                     <td>4992272588248</td>
-                    <td class="lg">ホワイト/ブルー/シルバー/ネイビーブルー/エクル</td>
+                    <td class="lg">ホワイト/ブルー/シルバー/ネイビーブルー/エク</td>
                     <td>160</td>
                     <td class="num">3,000</td>
                     <td class="num">0.00</td>
@@ -447,7 +490,7 @@
                     <td>DE063B</td>
                     <td class="lg">ｱﾘｽ ﾌﾙｰﾘｰﾙ FT｢**｣</td>
                     <td>4992272588248</td>
-                    <td class="lg">ホワイト/ブルー/シルバー/ネイビーブルー/エクル</td>
+                    <td class="lg">ホワイト/ブルー/シルバー/ネイビーブルー/エク</td>
                     <td>160</td>
                     <td class="num">3,000</td>
                     <td class="num">0.00</td>
@@ -470,7 +513,7 @@
                     <td>DE063B</td>
                     <td class="lg">ｱﾘｽ ﾌﾙｰﾘｰﾙ FT｢**｣</td>
                     <td>4992272588248</td>
-                    <td class="lg">ホワイト/ブルー/シルバー/ネイビーブルー/エクル</td>
+                    <td class="lg">ホワイト/ブルー/シルバー/ネイビーブルー/エク</td>
                     <td>160</td>
                     <td class="num">3,000</td>
                     <td class="num">0.00</td>
@@ -493,7 +536,7 @@
                     <td>DE063B</td>
                     <td class="lg">ｱﾘｽ ﾌﾙｰﾘｰﾙ FT｢**｣</td>
                     <td>4992272588248</td>
-                    <td class="lg">ホワイト/ブルー/シルバー/ネイビーブルー/エクル</td>
+                    <td class="lg">ホワイト/ブルー/シルバー/ネイビーブルー/エク</td>
                     <td>160</td>
                     <td class="num">3,000</td>
                     <td class="num">0.00</td>
@@ -509,375 +552,6 @@
                     <td class="num">0.0000</td>
                     <td>0000/00/00</td>
                 </tr>
-                <tr>
-                    <td>16</td>
-                    <td>2005025300</td>
-                    <td>2005025300</td>
-                    <td>DE063B</td>
-                    <td class="lg">ｱﾘｽ ﾌﾙｰﾘｰﾙ FT｢**｣</td>
-                    <td>4992272588248</td>
-                    <td class="lg">ホワイト/ブルー/シルバー/ネイビーブルー/エクル</td>
-                    <td>160</td>
-                    <td class="num">3,000</td>
-                    <td class="num">0.00</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.00</td>
-                    <td class="num">1,000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td>0000/00/00</td>
-                </tr>
-                <tr>
-                    <td>17</td>
-                    <td>2005025300</td>
-                    <td>2005025300</td>
-                    <td>DE063B</td>
-                    <td class="lg">ｱﾘｽ ﾌﾙｰﾘｰﾙ FT｢**｣</td>
-                    <td>4992272588248</td>
-                    <td class="lg">ホワイト/ブルー/シルバー/ネイビーブルー/エクル</td>
-                    <td>160</td>
-                    <td class="num">3,000</td>
-                    <td class="num">0.00</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.00</td>
-                    <td class="num">1,000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td>0000/00/00</td>
-                </tr>
-                <tr>
-                    <td>18</td>
-                    <td>2005025300</td>
-                    <td>2005025300</td>
-                    <td>DE063B</td>
-                    <td class="lg">ｱﾘｽ ﾌﾙｰﾘｰﾙ FT｢**｣</td>
-                    <td>4992272588248</td>
-                    <td class="lg">ホワイト/ブルー/シルバー/ネイビーブルー/エクル</td>
-                    <td>160</td>
-                    <td class="num">3,000</td>
-                    <td class="num">0.00</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.00</td>
-                    <td class="num">1,000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td>0000/00/00</td>
-                </tr>
-                <tr>
-                    <td>19</td>
-                    <td>2005025300</td>
-                    <td>2005025300</td>
-                    <td>DE063B</td>
-                    <td class="lg">ｱﾘｽ ﾌﾙｰﾘｰﾙ FT｢**｣</td>
-                    <td>4992272588248</td>
-                    <td class="lg">ホワイト/ブルー/シルバー/ネイビーブルー/エクル</td>
-                    <td>160</td>
-                    <td class="num">3,000</td>
-                    <td class="num">0.00</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.00</td>
-                    <td class="num">1,000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td>0000/00/00</td>
-                </tr>
-                <tr>
-                    <td>20</td>
-                    <td>2005025300</td>
-                    <td>2005025300</td>
-                    <td>DE063B</td>
-                    <td class="lg">ｱﾘｽ ﾌﾙｰﾘｰﾙ FT｢**｣</td>
-                    <td>4992272588248</td>
-                    <td class="lg">ホワイト/ブルー/シルバー/ネイビーブルー/エクル</td>
-                    <td>160</td>
-                    <td class="num">3,000</td>
-                    <td class="num">0.00</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.00</td>
-                    <td class="num">1,000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td>0000/00/00</td>
-                </tr>
-                <tr>
-                    <td>20</td>
-                    <td>2005025300</td>
-                    <td>2005025300</td>
-                    <td>DE063B</td>
-                    <td class="lg">ｱﾘｽ ﾌﾙｰﾘｰﾙ FT｢**｣</td>
-                    <td>4992272588248</td>
-                    <td class="lg">ホワイト/ブルー/シルバー/ネイビーブルー/エクル</td>
-                    <td>160</td>
-                    <td class="num">3,000</td>
-                    <td class="num">0.00</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.00</td>
-                    <td class="num">1,000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td>0000/00/00</td>
-                </tr>
-                <tr>
-                    <td>21</td>
-                    <td>2005025300</td>
-                    <td>2005025300</td>
-                    <td>DE063B</td>
-                    <td class="lg">ｱﾘｽ ﾌﾙｰﾘｰﾙ FT｢**｣</td>
-                    <td>4992272588248</td>
-                    <td class="lg">ホワイト/ブルー/シルバー/ネイビーブルー/エクル</td>
-                    <td>160</td>
-                    <td class="num">3,000</td>
-                    <td class="num">0.00</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.00</td>
-                    <td class="num">1,000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td>0000/00/00</td>
-                </tr>
-                <tr>
-                    <td>22</td>
-                    <td>2005025300</td>
-                    <td>2005025300</td>
-                    <td>DE063B</td>
-                    <td class="lg">ｱﾘｽ ﾌﾙｰﾘｰﾙ FT｢**｣</td>
-                    <td>4992272588248</td>
-                    <td class="lg">ホワイト/ブルー/シルバー/ネイビーブルー/エクル</td>
-                    <td>160</td>
-                    <td class="num">3,000</td>
-                    <td class="num">0.00</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.00</td>
-                    <td class="num">1,000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td>0000/00/00</td>
-                </tr>
-                <tr>
-                    <td>23</td>
-                    <td>2005025300</td>
-                    <td>2005025300</td>
-                    <td>DE063B</td>
-                    <td class="lg">ｱﾘｽ ﾌﾙｰﾘｰﾙ FT｢**｣</td>
-                    <td>4992272588248</td>
-                    <td class="lg">ホワイト/ブルー/シルバー/ネイビーブルー/エクル</td>
-                    <td>160</td>
-                    <td class="num">3,000</td>
-                    <td class="num">0.00</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.00</td>
-                    <td class="num">1,000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td>0000/00/00</td>
-                </tr>
-                <tr>
-                    <td>24</td>
-                    <td>2005025300</td>
-                    <td>2005025300</td>
-                    <td>DE063B</td>
-                    <td class="lg">ｱﾘｽ ﾌﾙｰﾘｰﾙ FT｢**｣</td>
-                    <td>4992272588248</td>
-                    <td class="lg">ホワイト/ブルー/シルバー/ネイビーブルー/エクル</td>
-                    <td>160</td>
-                    <td class="num">3,000</td>
-                    <td class="num">0.00</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.00</td>
-                    <td class="num">1,000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td>0000/00/00</td>
-                </tr>
-                <tr>
-                    <td>25</td>
-                    <td>2005025300</td>
-                    <td>2005025300</td>
-                    <td>DE063B</td>
-                    <td class="lg">ｱﾘｽ ﾌﾙｰﾘｰﾙ FT｢**｣</td>
-                    <td>4992272588248</td>
-                    <td class="lg">ホワイト/ブルー/シルバー/ネイビーブルー/エクル</td>
-                    <td>160</td>
-                    <td class="num">3,000</td>
-                    <td class="num">0.00</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.00</td>
-                    <td class="num">1,000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td>0000/00/00</td>
-                </tr>
-                <tr>
-                    <td>26</td>
-                    <td>2005025300</td>
-                    <td>2005025300</td>
-                    <td>DE063B</td>
-                    <td class="lg">ｱﾘｽ ﾌﾙｰﾘｰﾙ FT｢**｣</td>
-                    <td>4992272588248</td>
-                    <td class="lg">ホワイト/ブルー/シルバー/ネイビーブルー/エクル</td>
-                    <td>160</td>
-                    <td class="num">3,000</td>
-                    <td class="num">0.00</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.00</td>
-                    <td class="num">1,000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td>0000/00/00</td>
-                </tr>
-                <tr>
-                    <td>27</td>
-                    <td>2005025300</td>
-                    <td>2005025300</td>
-                    <td>DE063B</td>
-                    <td class="lg">ｱﾘｽ ﾌﾙｰﾘｰﾙ FT｢**｣</td>
-                    <td>4992272588248</td>
-                    <td class="lg">ホワイト/ブルー/シルバー/ネイビーブルー/エクル</td>
-                    <td>160</td>
-                    <td class="num">3,000</td>
-                    <td class="num">0.00</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.00</td>
-                    <td class="num">1,000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td>0000/00/00</td>
-                </tr>
-                <tr>
-                    <td>28</td>
-                    <td>2005025300</td>
-                    <td>2005025300</td>
-                    <td>DE063B</td>
-                    <td class="lg">ｱﾘｽ ﾌﾙｰﾘｰﾙ FT｢**｣</td>
-                    <td>4992272588248</td>
-                    <td class="lg">ホワイト/ブルー/シルバー/ネイビーブルー/エクル</td>
-                    <td>160</td>
-                    <td class="num">3,000</td>
-                    <td class="num">0.00</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.00</td>
-                    <td class="num">1,000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td>0000/00/00</td>
-                </tr>
-                <tr>
-                    <td>29</td>
-                    <td>2005025300</td>
-                    <td>2005025300</td>
-                    <td>DE063B</td>
-                    <td class="lg">ｱﾘｽ ﾌﾙｰﾘｰﾙ FT｢**｣</td>
-                    <td>4992272588248</td>
-                    <td class="lg">ホワイト/ブルー/シルバー/ネイビーブルー/エクル</td>
-                    <td>160</td>
-                    <td class="num">3,000</td>
-                    <td class="num">0.00</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.00</td>
-                    <td class="num">1,000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td>0000/00/00</td>
-                </tr>
-                <tr>
-                    <td>30</td>
-                    <td>2005025300</td>
-                    <td>2005025300</td>
-                    <td>DE063B</td>
-                    <td class="lg">ｱﾘｽ ﾌﾙｰﾘｰﾙ FT｢**｣</td>
-                    <td>4992272588248</td>
-                    <td class="lg">ホワイト/ブルー/シルバー/ネイビーブルー/エクル</td>
-                    <td>160</td>
-                    <td class="num">3,000</td>
-                    <td class="num">0.00</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.00</td>
-                    <td class="num">1,000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td class="num">0.0000</td>
-                    <td>0000/00/00</td>
-                </tr>
-
             </tbody>
         </table>
         <div class="base">
@@ -940,66 +614,6 @@
             <div class="koma">
                 <p>⑮</p>
                 <img class="item" alt="" src="img/2e8959dc3fcfde765627591f87129365cf469dfa.png">
-            </div>
-            <div class="koma">
-                <p>⑯</p>
-                <img class="item" alt="" src="img/2ea85887c414feec8d685008f3103140a43c08bd.png">
-            </div>
-            <div class="koma">
-                <p>⑰</p>
-                <img class="item" alt="" src="img/2eeb1f5d619ed476f184dfc39a23e6c64db843f9.png">
-            </div>
-            <div class="koma">
-                <p>⑱</p>
-                <img class="item" alt="" src="img/2fb66ea798a8a2e84bc92466c46d10d9c666f34b.png">
-            </div>
-            <div class="koma">
-                <p>⑲</p>
-                <img class="item" alt="" src="img/4a099eb6dd181a56cd366c349f2667dbe787b516.jpg">
-            </div>
-            <div class="koma">
-                <p>⑳</p>
-                <img class="item" alt="" src="img/4bc8b1826f9ec4f24517b211232621d3477f9590.png">
-            </div>
-            <div class="koma">
-                <p>㉑</p>
-                <img class="item" alt="" src="img/2bf66c56debbeb48b4bcd194951cdae006e02d6f.png">
-            </div>
-            <div class="koma">
-                <p>㉒</p>
-                <img class="item" alt="" src="img/3ba105fe4fa2b8ba251a44547ba024679c6eef87.png">
-            </div>
-            <div class="koma">
-                <p>㉓</p>
-                <img class="item" alt="" src="img/3cc4e5b325b40358e17361d72d0ebe5870085753.png">
-            </div>
-            <div class="koma">
-                <p>㉔</p>
-                <img class="item" alt="" src="img/3d4bd6b6d7393891d9262b884f126b95b6648fd6.jpg">
-            </div>
-            <div class="koma">
-                <p>㉕</p>
-                <img class="item" alt="" src="img/3d5bec0e5b719f3f3ef0271101107442f8d01347.jpg">
-            </div>
-            <div class="koma">
-                <p>㉖</p>
-                <img class="item" alt="" src="img/0f205cf5b18126d2bcf60b89a664267a9c9a1f21.png">
-            </div>
-            <div class="koma">
-                <p>㉗</p>
-                <img class="item" alt="" src="img/0f628292f9090cfdccdb34345be1b77d8eb1a95b.png">
-            </div>
-            <div class="koma">
-                <p>㉘</p>
-                <img class="item" alt="" src="img/0fcac53a1b7188e7611eda674fbf4f22a6e112c7.png">
-            </div>
-            <div class="koma">
-                <p>㉙</p>
-                <img class="item" alt="" src="img/2bd5d0adf2553054f6285b0fb8cf1aa6013f4f3a.png">
-            </div>
-            <div class="koma">
-                <p>㉚</p>
-                <img class="item" alt="" src="img/2be6831edad5f3cae7ebb9e27013468400fad73b.png">
             </div>
             </div>
     </div>

@@ -14,7 +14,10 @@
         }
 
         @page {
-            size: 3500px 2400px;
+            /* size: 3500px 2400px; */
+            size: A4 landscape;
+            /*            size: A4 ;*/
+            margin: 12mm 0 0 8mm;
         }
 
         .pages {
@@ -22,7 +25,10 @@
         }
 
         .base {
-            padding: 10px 0 0 0;    
+            width: 1060px;/*1090px*/;
+            height: 700px;/*770px*/;
+            margin: 0 0 0 0;
+            padding: 0 0 0 0;    
             border: 2px solid rgb(204, 39, 39);
             display: flex;
             flex-wrap: wrap;
@@ -31,8 +37,8 @@
             display: flex;
             margin: 0 0 10px 10px;
             border: 2px solid rgb(30, 153, 147);
-            width: 200px;
-            height: 200px;
+            width: 100px;
+            height: 100px;
         }
         img.item {
             width: auto;
