@@ -13,17 +13,6 @@
             box-sizing: border-box;
         }
 
-        @page {
-            /* size: 3500px 2400px; */
-            size: A4 landscape;
-            /*            size: A4 ;*/
-            margin: 12mm 0 0 8mm;
-        }
-
-        .pages {
-            break-before: page;
-        }
-
         .base {
             width: 1060px;/*1090px*/;
             height: 700px;/*770px*/;
@@ -43,6 +32,16 @@
         img.item {
             width: auto;
             height: 85%;
+        }
+
+        @page {
+            size: A4 landscape;
+            /*            size: A4 ;*/
+            margin: 3mm 6mm;
+        }
+
+        .pages {
+            break-before: page;
         }
 
     </style>
