@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 1060px;
+  height: 400px;
+  /* background-color: gray; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.midasi {
+  width: 260px;
+  height: 80px;
+  text-align: left;
+/* line-height: 80px; */
+}
+.midasi.left {
+  width: 300px;
+  background-color: rgb(30, 144, 255);
+  color: aliceblue;
+  padding: 18px;
+}
+.midasi.saisyu {
+  background-color: rgb(236, 120, 12);
+}
+.midasi.center {
+  width: 500px;
+  /* background-color: lightskyblue; */
+  text-align: center;
+  padding: 10px;
+}
+.midasi.right {
+  width: 260px;
+  /* background-color: lightcoral; */
+  text-align: right;
+  padding: 10px;
+}
+p{
+  line-height: 40px;
+  margin-bottom: 0.5em;
+  font-size: 10px;
+  line-height: 14px;
+}
+p.pg0 {
+  font-size: 30px; 
+}
+
+p.pg1{
+  font-size: 16px; 
+}
+
+p.pg2{
+  font-size: 16px; 
+  line-height: 20px;
+}
+p.pg3{
+  font-size: 14px; 
+}
