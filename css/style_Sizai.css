@@ -1,0 +1,380 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .base {
+            width: 770px;
+            height: 1050px;
+            margin: 0 0 0 6px;
+            padding: 0 0 0 0;
+            /* border: 2px solid rgb(204, 39, 39); */
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+
+        .sizai_tehai {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            width: 768px;
+            height: 780px;
+            margin: 0 0 0 0;
+            padding: 0 0 0 0;
+            /* border: 1px solid rgb(204, 39, 39); */
+        }
+
+        .tehai {
+            width: 385px;
+            height: 980px;
+            margin: 0 0 0 0;
+            padding: 0 0 0 0;
+            /* border: 1px solid rgb(204, 39, 39); */
+        }
+
+        .sizai {
+            width: 385px;
+            height: 780px;
+            margin: 0 0 0 0;
+            padding: 0 0 0 0;
+            /* border: 1px solid rgb(204, 39, 39); */
+        }
+
+        .koma {
+            display: flex;
+            margin: 0 0 10px 10px;
+            /* border: 2px solid rgb(30, 153, 147); */
+            width: 100px;
+            height: 100px;
+        }
+
+        img.item {
+            width: auto;
+            height: 85%;
+        }
+
+        .header2 {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            margin: 0 0 0 0;
+            /* border: 1px solid rgb(30, 153, 147); */
+            width: 100%;
+            height: 60px;
+        }
+
+        .header {
+            width: 768px;
+            height: 60px;
+            /* background-color: gray; */
+            display: flex;
+            flex-wrap: wrap;
+            /*
+            margin: 0 0 0 0;
+            border: 1px solid rgb(30, 153, 147);
+            width: 100%;
+            height: 60px;
+*/
+        }
+
+        .midasi {
+            width: 260px;
+            height: 60px;
+            text-align: left;
+            /* line-height: 80px; */
+        }
+
+        .midasi.left {
+            width: 260px;
+            background-color: rgb(30, 144, 255);
+            color: aliceblue;
+            padding: 18px;
+        }
+
+        .midasi.saisyu {
+            background-color: rgb(236, 120, 12);
+        }
+
+        .midasi.center {
+            width: 400px;
+            /* background-color: lightskyblue; */
+            text-align: center;
+            padding: 10px;
+        }
+
+        .midasi.right {
+            width: 106px;
+            /* background-color: lightcoral; */
+            text-align: right;
+            padding: 10px;
+        }
+
+        p {
+            line-height: 40px;
+            margin-bottom: 0.5em;
+            font-size: 10px;
+            line-height: 14px;
+        }
+
+        p.pg0 {
+            font-size: 22px;
+        }
+
+        p.pg1 {
+            font-size: 12px;
+        }
+
+        p.pg2 {
+            font-size: 12px;
+            line-height: 20px;
+        }
+
+        p.pg3 {
+            margin-top: 4px;
+            font-size: 9px;
+            line-height: 8px;
+        }
+        p.pg3.mg{
+            margin-top: 12px;
+
+        }
+        .top {
+            margin: 0 0 0 0;
+            /* border: 1px solid rgb(30, 153, 147); */
+            width: 100%;
+            height: 82px;
+        }
+
+        .carton {
+            margin: 0 0 0 0;
+            /* border: 1px solid rgb(30, 153, 147); */
+            width: 100%;
+            height: 50px;
+        }
+
+        .item {
+            display: flex;
+            margin-top: 1px;
+            /* border: 1px solid rgb(30, 153, 147); */
+            width: 100%;
+            height: 200px;
+        }
+
+        .item2 {
+            display: flex;
+            margin-top: 1px;
+            /* border: 1px solid rgb(30, 153, 147); */
+            width: 100%;
+            height: 200px;
+        }
+
+        .zuan {
+            display: flex;
+            margin-top: 1px;
+            border: 1px solid rgb(0, 0, 0);
+            width: 100%;
+            height: 270px;
+
+        }
+
+        .zuan_sijisyo {
+            display: flex;
+            margin-top: 1px;
+            border: 1px solid rgb(0, 0, 0);
+            width: 100%;
+            height: 800px;
+
+        }
+
+        .zuan_kakudai {
+            display: flex;
+            margin-top: 1px;
+            border: 1px solid rgb(0, 0, 0);
+            width: 100%;
+            height: 980px;
+
+        }
+
+        .pantone {
+            display: flex;
+            margin-top: 1px;
+            border: 1px solid rgb(0, 0, 0);
+            width: 100%;
+            height: 70px;
+        }
+
+        .approval {
+            display: flex;
+            margin-top: 1px;
+            border: 1px solid rgb(0, 0, 0);
+            width: 100%;
+            height: 80px;
+        }
+
+        .sizai_koma4 {
+            display: flex;
+            margin-top: 2px;
+            margin-right: 1px;
+            border: 1px solid rgb(0, 0, 0);
+            width: 100%;
+            height: 220px;
+        }
+
+        .sizai_koma3 {
+            display: flex;
+            margin-top: 2px;
+            margin-right: 1px;
+            border: 1px solid rgb(0, 0, 0);
+            width: 100%;
+            height: 680px;
+        }
+
+        .sizai_koma2 {
+            display: flex;
+            margin-top: 2px;
+            margin-right: 1px;
+            border: 1px solid rgb(0, 0, 0);
+            width: 100%;
+            height: 460px;
+        }
+
+        .sizai_koma1 {
+            display: flex;
+            margin-top: 2px;
+            margin-right: 1px;
+            border: 1px solid rgb(0, 0, 0);
+            width: 100%;
+            height: 900px;
+        }
+
+        .tehai_koma4 {
+            display: flex;
+            margin-top: 2px;
+            margin-left: 1px;
+            border: 1px solid rgb(0, 0, 0);
+            width: 100%;
+            height: 220px;
+        }
+
+        .tehai_koma3 {
+            display: flex;
+            margin-top: 2px;
+            margin-left: 1px;
+            border: 1px solid rgb(0, 0, 0);
+            width: 100%;
+            height: 680px;
+        }
+
+        .tehai_koma2 {
+            display: flex;
+            margin-top: 2px;
+            margin-left: 1px;
+            border: 1px solid rgb(0, 0, 0);
+            width: 100%;
+            height: 460px;
+        }
+
+        .tehai_koma1 {
+            display: flex;
+            margin-top: 2px;
+            margin-left: 1px;
+            border: 1px solid rgb(0, 0, 0);
+            width: 100%;
+            height: 900px;
+        }
+
+        .img {
+            /* display: block;
+            margin:auto; */
+        }
+
+        .print_page {
+            /* width: 172mm; */
+            /* height: 51mm; */
+            /* page-break-after: always; */
+            position: relative;
+            counter-increment: print_page_count;
+            /* ページ番号のインクリメント */
+        }
+
+        .print_page:after {
+            position: absolute;
+            /* 位置の相対指定 */
+            left: 735px;
+            /* 右から０ピクセルの位置指定 */
+            top: 8px;
+            /* 下から０ピクセルの位置指定 */
+            font-size: 9px;
+            line-height: 8px;
+
+            content: counter(print_page_count) "Page";
+            /* ページ番号を擬似要素に表示 */
+        }
+
+        .pages {
+            display: flex;
+            flex-wrap: wrap;
+            break-before: page;
+        }
+
+        @page {
+            /*size: A4 landscape;*/
+            size: A4;
+            margin: 6mm 6mm;
+        }
+
+        .light_blue {
+            background-color: rgb(224, 255, 255);
+        }
+
+        .green {
+            background-color: hsl(84, 68%, 64%);
+        }
+
+        .red {
+            background-color: rgb(255, 104, 209);
+        }
+
+        .saisyu_red {
+            background-color: rgb(185, 125, 123);
+        }
+
+        .beige {
+            background-color: rgb(239, 228, 176);
+        }
+
+        .sizai_bcolor {
+            background-color: rgb(255, 242, 242);
+        }
+
+        .tehai_bcolor {
+            background-color: rgb(229, 245, 245);
+        }
+
+        table {
+            border-collapse: collapse;
+            font-size: 8px;
+            padding: 0;
+            margin: 0;
+        }
+
+        th {
+            background: #000;
+        }
+
+        th,
+        td {
+            border: 1px solid #000;
+            padding: 0 4px 0 4px;
+
+        }
+
+        td.center {
+            text-align: center;
+        }
+
+        span.s4 {
+            /* font-size: 2px; */
+        }

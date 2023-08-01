@@ -1,0 +1,408 @@
+body {
+
+  margin: 0;
+  padding: 0;
+  /* background: #F1F4F1; */
+  color: #000000;
+  /* font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", sans-serif; */
+  /* font-size: 93%; */
+  /* min-width: 1900px; */
+  counter-reset: print_page_count 0;
+  /* text-align: center; */
+
+}
+
+/*------------------------------
+ページヘッダーのベース
+------------------------------*/
+#BaseHeader {
+  text-align: right;
+  height: 30px;
+  /* background-color: #855a5a; */
+  padding-bottom: 2px;
+  border-bottom-style: solid;
+}
+
+/*------------------------------
+
+------------------------------*/
+#copy01 {
+  height: 5mm;
+  width: 293mm;
+   /* background-color: #f0e68c; */
+  float: left;
+  /* 回り込み */
+}
+
+/*------------------------------
+ヘッダー部見出し上部（ルビ表示）
+------------------------------*/
+.header1 {
+  /*width: 10%;*/
+  /* 幅*/
+  text-align: left;
+  /* text-align: right; */
+  float: left;
+  /* 回り込み */
+  font-size: 10px;
+  transform: scale(0.8);
+  font-weight: bold;
+  /* background-color: #855a5a; */
+}
+
+/*------------------------------
+ヘッダー部見出し下部（見出し本文）
+------------------------------*/
+.header2 {
+  font-weight: normal;
+  font-size: 15px;
+  /* transform: scale(0.8);  */
+}
+
+/*------------------------------
+ハート位置
+------------------------------*/
+.heart4 {
+  position: relative;
+  width: 10px;
+  height: 0px;
+  left: 220px;
+}
+
+/*------------------------------
+8コマ用内容表示
+------------------------------*/
+div.koma02 {
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 4px;
+  text-align: center;
+  line-height: 16px;
+}
+
+/*------------------------------
+2,4コマ用内容表示
+------------------------------*/
+div.koma03 {
+  float: left;
+  /* 回り込み */
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 4px;
+  text-align: center;
+  line-height: 16px;
+  /* background-color: aqua; */
+  /*  border: 1px solid #cccccc;*/
+  /* width: 80mm; */
+  /* height: 360mm; */
+}
+
+/*------------------------------
+資材、手配 画像表示用
+------------------------------*/
+div.koma04 {
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 4px;
+  text-align: center;
+  line-height: 16px;
+  /* background-color: rgb(234, 0, 255); */
+  /*  border: 1px solid #cccccc;*/
+}
+
+/*------------------------------
+8コママップ用
+------------------------------*/
+.m_layout04 {
+   /* background-color: red; */
+  width: 72.5mm;
+  /* 幅 */
+  height: 180mm;
+  /* 高さ */
+  float: left;
+  /* 回り込み */
+  border: 1px solid #ccc;
+  /*  border-style: solid;*/
+  /* #000;*/
+
+
+}
+/*------------------------------
+8コママップ用(営業用)
+------------------------------*/
+.m_layout041 {
+  /* background-color: red; */
+ width: 72.5mm;
+ /* 幅 */
+ height: 130mm;
+ /* 高さ */
+ float: left;
+ /* 回り込み */
+ border: 1px solid #ccc;
+ /*  border-style: solid;*/
+ /* #000;*/
+
+
+}
+
+
+/*------------------------------
+2コママップ用
+------------------------------*/
+.m_layout05 {
+  /*  background-color: red;*/
+  width: 290mm;
+  /* 幅 */
+  height: 192mm;
+  /* 高さ */
+  float: left;
+  /* 回り込み */
+  border: 1px solid #ccc;
+  /*  border-style: solid;*/
+  /* #000;*/
+
+
+}
+
+/*------------------------------
+4コママップ用
+------------------------------*/
+.m_layout06 {
+  /*  background-color: red;*/
+  width: 145mm;
+  /* 幅 */
+  height: 192mm;
+  /* 高さ */
+  float: left;
+  /* 回り込み */
+  border: 1px solid #ccc;
+  /*  border-style: solid;*/
+  /* #000;*/
+}
+
+/*------------------------------
+8コママップ明細、通常幅
+------------------------------*/
+.map_m {
+  padding-left: 2px;
+  /*    padding-left:1px;*/
+  border-top: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
+  width: 206px;
+  font-size: 9px;
+  font-weight: bold;
+     /* transform: scale(0.9); */
+  text-align: left;
+  float: left;
+  /* 回り込み */
+}
+.small_ft {
+  /* font-size: 0.1vw; */
+       /* background-color: aqua; */
+}
+/*------------------------------
+8コママップ明細、上代関連用
+------------------------------*/
+.map_m2 {
+  padding-left: 2px;
+  margin-right: 4px;
+  border-top: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
+  width: 69px;
+  font-size: 9px;
+  font-weight: bold;
+  /*    transform: scale(0.9); */
+  text-align: left;
+  float: left;
+  /* 回り込み */
+}
+
+/*------------------------------
+ﾛｲﾔﾘﾃｨ、為替用　明細
+------------------------------*/
+div.s1 {
+  border-top: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
+  width: 43px;
+  font-weight: bold;
+  /* background-color: aqua;   */
+  float: left;
+}
+
+/*------------------------------
+ﾛｲﾔﾘﾃｨ、為替用　中・右ヘッダー
+------------------------------*/
+div.s2 {
+  border-top: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
+  width: 36px;
+  float: left;
+}
+
+/*------------------------------
+ﾛｲﾔﾘﾃｨ、為替用　左ヘッダー
+------------------------------*/
+div.s3 {
+  border-top: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
+  width: 56px;
+  text-align: left;
+  float: left;
+}
+
+/*------------------------------
+詳細マップ明細
+------------------------------*/
+.map_m1 {
+  /*padding-left:3px;*/
+  border-top: 1px solid #cccccc;
+  /*    border-left: 1px solid #cccccc;*/
+  width: 230px;
+  font-size: 9px;
+  font-weight: bold;
+  text-align: left;
+  float: left;
+  /* 回り込み */
+}
+
+/*------------------------------
+1ページ分のエリア設定
+------------------------------*/
+.map_prt_base {
+  height: 415mm;
+  width: 293mm;
+  margin: 0;
+  /* width: 770px;
+  height: 1050px;
+  margin: 0 0 0 6px;
+  padding: 0 0 0 0; */
+  /* border: 2px solid rgb(204, 39, 39); */
+
+  font-size: 10px;
+  /*  background-color: yellow;*/
+  /* border: 1px solid #333333; */
+}
+
+/*------------------------------
+8コママップヘッダー
+------------------------------*/
+.map_t {
+  border-top: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
+  width: 56px;
+  font-size: 8px;
+  /*    font-size: 10px;*/
+  /* transform: scale(0.9); */
+  float: left;
+  /* 回り込み */
+  text-align: left;
+}
+
+/*------------------------------
+詳細マップヘッダー
+------------------------------*/
+.map_t1 {
+  border-top: 1px solid #cccccc;
+  border-left: 2px solid #cccccc;
+  width: 56px;
+  /*    font-size:8px;*/
+  font-size: 8px;
+  /* transform: scale(0.8); */
+  float: left;
+  /* 回り込み */
+  text-align: left;
+}
+
+/*------------------------------
+ヘッダーロゴサイズ、位置の指定
+------------------------------*/
+img.HeaderLogo {
+  margin-right: 50px;
+  padding: 0px 0px 0px 0px;
+  width: 150px;
+  /*height: 50px;*/
+}
+
+/*------------------------------
+ハート画像のサイズ
+------------------------------*/
+img.hrt_size {
+  width: 5mm;
+  height: 5mm;
+  line-height: 0px;
+}
+
+/*------------------------------
+マップイメージサイズ
+------------------------------*/
+img.map {
+  width: 40mm;
+  height: 40mm;
+  padding-bottom: 5px;
+}
+
+/*------------------------------
+資材画像サイズ
+------------------------------*/
+img.sizai {
+  float: left;
+  /* 回り込み */
+  width: 43mm;
+  /*height: 80mm;*/
+  padding: 5px;
+}
+
+/*------------------------------
+手配画像サイズ
+------------------------------*/
+img.tehai{
+  float: left;
+  /* 回り込み */
+  width: 35mm;
+  /*height: 80mm;*/
+  padding: 5px;
+}
+
+/*------------------------------
+改ページの指定
+------------------------------*/
+.pages {
+  display: flex;
+  flex-wrap: wrap;
+  break-before: page;
+}
+
+/*------------------------------
+ページ番号の取得
+------------------------------*/
+.print_page {
+  /* width: 172mm; */
+  /* height: 51mm; */
+  /* page-break-after: always; */
+  position: relative;
+  counter-increment: print_page_count;
+  /* ページ番号のインクリメント */
+}
+
+/*------------------------------
+ページ番号の表示
+------------------------------*/
+.print_page:after {
+  position: absolute;
+  /* 位置の相対指定 */
+  right: 4px;
+  /* 右から０ピクセルの位置指定 */
+  top: 5px;
+  /* 下から０ピクセルの位置指定 */
+  content: counter(print_page_count) "Page";
+  /* ページ番号を擬似要素に表示 */
+}
+
+/*------------------------------
+印刷用紙の設定
+------------------------------*/
+@page {
+  /*size: A4 landscape;*/
+  size: A4;
+  margin: 6mm 6mm;
+}

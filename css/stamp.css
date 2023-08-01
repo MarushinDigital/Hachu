@@ -1,0 +1,144 @@
+.based0 {
+  /* border: 1px solid #000000; */
+  z-index: 1;
+  position: relative;
+  padding: 0px;
+  width: 70px;
+  height: 70px;
+  top: 0;
+  left: 0;
+    /* background-color: #bde9ba; */
+  text-align: left;
+  float: left;
+  /* 回り込み */
+}
+
+.stamp1 {
+  font-size: 14px;
+  border: 3px double #f00;
+  border-radius: 50%;
+  color: #f00;
+  width: 84px;
+  height: 84px;
+  position: relative;
+  margin: auto;
+}
+
+.stamp1 span {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.stamp1 span:first-child::before {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 94%;
+  border-bottom: 1px solid #f00;
+  line-height: 1;
+  padding-bottom: 6px;
+}
+
+.stamp1 span:first-child {
+  line-height: 80px;
+}
+
+.stamp1 span:last-child {
+  position: absolute;
+  top: 52px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 98%;
+  border-top: 1px solid #f00;
+  padding-top: 2px;
+  line-height: 1;
+}
+
+.stamp {
+  font-size: 11px;
+  border: 3px double #f00;
+  border-radius: 50%;
+  color: #f00;
+  width: 70px;
+  height: 70px;
+  position: relative;
+  margin: auto;
+}
+
+.stamp span {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.stamp span:first-child::before {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 94%;
+  border-bottom: 1px solid #f00;
+  line-height: 1;
+  padding-bottom: 3px;
+}
+
+.stamp span:first-child {
+  line-height: 62px;
+}
+
+.stamp span:last-child {
+  position: absolute;
+  top: 38px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 98%;
+  border-top: 1px solid #f00;
+  padding-top: 2px;
+  line-height: 1;
+}
+
+.stamp-syo_18 span:first-child::before {
+  content: "試作";
+  font-size: 18px;
+}
+
+.stamp-ket_18 span:first-child::before {
+  content: "最終";
+  font-size: 18px;
+}
+
+.stamp-kan_18 span:first-child::before {
+  content: "確認";
+  font-size: 18px;
+}
+
+.stamp-syo_14 span:first-child::before {
+  content: "試作";
+  font-size: 14px;
+}
+
+.stamp-ket_14 span:first-child::before {
+  content: "最終";
+  font-size: 14px;
+}
+
+.stamp-kan_14 span:first-child::before {
+  content: "確認";
+  font-size: 14px;
+}
+
+.stamp-sum_16 span:first-child::before {
+  content: "済";
+  font-size: 16px;
+}
+
+.stamp-sum_18 span:first-child::before {
+  content: "済";
+  font-size: 20px;
+}

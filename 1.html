@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.print_page{
+    /* width: 172mm; */
+    /* height: 51mm; */
+    /* page-break-after: always; */
+    position: relative;
+    counter-increment: print_page_count; /* ページ番号のインクリメント */
+}
+/* .print_page:last-child{
+    page-break-after: auto;
+} */
+/* .print_page:before{
+    position: absolute;
+    right: 0;
+    top: 0;
+    content: "Asial CSS Print Demo";
+} */
+.print_page:after{
+    position: absolute; /* 位置の相対指定 */
+    right: 0; /* 右から０ピクセルの位置指定 */
+    top: 0; /* 下から０ピクセルの位置指定 */
+    content: counter(print_page_count) "Page"; /* ページ番号を擬似要素に表示 */
+}
+    </style>
+</head>
+
+<body>
+    <article>
+        <section class="print_page">
+        </section>
+        <h1>３ページ目</h1>
+        <section class="print_page">
+        </section>
+        <h1>３ページ目</h1>
+        <section class="print_page">
+        </section>
+    </article>
+</body>
+
+</html>

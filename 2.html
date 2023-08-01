@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>テスト</title>
+    <style>
+        table {
+          border-collapse: collapse;
+        }
+        td, th {
+          border: 1px solid #595959;
+          padding: 3px;
+          width: 30px;
+          height: 25px;
+        }
+        th {
+          background: #f0e6cc;
+          min-width: 80px;
+        }
+        th.pageNumber {
+          display: none;
+        }
+        @media print {
+          body {
+            counter-reset: page;
+          }
+          .pageNumber::after {
+            counter-increment: page;
+            content: counter(page) "/" counter(pages);
+          }
+          th.pageNumber {
+            display: block;
+            border: none;
+            background: none;
+            text-align: right;
+            width: 100%;
+            color: red;
+          }
+        }
+      </style>
+  </head>
+  <body>
+
+  <table>
+    <thead>
+      <tr>
+        <th colspan="7" class="pageNumber">ページ</th>
+      </tr>
+      <tr>
+        <th colspan="2">項目1</th>
+        <th>項目2</th>
+        <th>項目3</th>
+        <th>項目4</th>
+        <th>項目5</th>
+        <th>項目6</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>テスト</th>
+        <td>1/5</td>
+        <td>ここに内容が<br>入ります。</td>
+        <td></td>
+        <td rowspan="2"></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>テスト</th>
+        <td>1/5</td>
+        <td>ここに内容が<br>入ります。</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>テスト</th>
+        <td>1/5</td>
+        <td>ここに内容が<br>入ります。</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>テスト</th>
+        <td>1/5</td>
+        <td>ここに内容が<br>入ります。</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>テスト</th>
+        <td>1/5</td>
+        <td>ここに内容が<br>入ります。</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>テスト</th>
+        <td>1/5</td>
+        <td>ここに内容が<br>入ります。</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>テスト</th>
+        <td>1/5</td>
+        <td>ここに内容が<br>入ります。</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>テスト</th>
+        <td>1/5</td>
+        <td>ここに内容が<br>入ります。</td>
+        <td></td>
+        <td rowspan="2"></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>テスト</th>
+        <td>1/5</td>
+        <td>ここに内容が<br>入ります。</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>テスト</th>
+        <td>1/5</td>
+        <td>ここに内容が<br>入ります。</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>テスト</th>
+        <td>1/5</td>
+        <td>ここに内容が<br>入ります。</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>テスト</th>
+        <td>1/5</td>
+        <td>ここに内容が<br>入ります。</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>テスト</th>
+        <td>1/5</td>
+        <td>ここに内容が<br>入ります。</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>テスト</th>
+        <td>1/5</td>
+        <td>ここに内容が<br>入ります。</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>テスト</th>
+        <td>1/5</td>
+        <td>ここに内容が<br>入ります。</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>テスト</th>
+        <td>1/5</td>
+        <td>ここに内容が<br>入ります。</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>テスト</th>
+        <td>1/5</td>
+        <td>ここに内容が<br>入ります。</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>テスト</th>
+        <td>1/5</td>
+        <td>ここに内容が<br>入ります。</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>テスト</th>
+        <td>1/5</td>
+        <td>ここに内容が<br>入ります。</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>テスト</th>
+        <td>1/5</td>
+        <td>ここに内容が<br>入ります。</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>テスト</th>
+        <td>1/5</td>
+        <td>ここに内容が<br>入ります。</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>テスト</th>
+        <td>1/5</td>
+        <td>ここに内容が<br>入ります。</td>
+        <td></td>
+        <td rowspan="2"></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>テスト</th>
+        <td>1/5</td>
+        <td>ここに内容が<br>入ります。</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>テスト</th>
+        <td>1/5</td>
+        <td>ここに内容が<br>入ります。</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>テスト</th>
+        <td>1/5</td>
+        <td>ここに内容が<br>入ります。</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>テスト</th>
+        <td>1/5</td>
+        <td>ここに内容が<br>入ります。</td>
+        <td></td>
+        <td rowspan="2"></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>テスト</th>
+        <td>1/5</td>
+        <td>ここに内容が<br>入ります。</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>テスト</th>
+        <td>1/5</td>
+        <td>ここに内容が<br>入ります。</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>テスト</th>
+        <td>1/5</td>
+        <td>ここに内容が<br>入ります。</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+  </body>
+</html>
